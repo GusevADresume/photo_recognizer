@@ -9,3 +9,13 @@
 
 Функция check_all_imgs принимает строку (путь к папке или системе папок)
 Возвращает список словарей {имя файла: True/False}
+
+### Для запуска проекта   YOLO_CFG = "Resources/yolov4.cfg"
+    YOLO_WEIGHTS = "Resources/yolov4.weights"
+* Клонируйте репозиторий
+* Создайте виртуальное окружение `Python -m venv venv`
+* Активируйте виртуальную среду `source venv/bin/activate`
+* Установите зависимости `pip install requirements.txt`
+* Создайте папку `Resources`
+* Скачайте `yolov4.cfg` & `yolov4.weights` и расположите в папке `Resources`
+* Запустите проект `python main.py`
